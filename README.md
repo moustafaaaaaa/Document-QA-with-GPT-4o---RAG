@@ -83,7 +83,7 @@ print(response["result"])
 🧰 Installation & Setup
 1️⃣ Clone the repository
 
-git clone https://github.com/<your-username>/document-qa-rag.git
+git clone https://github.com/<moustafaaaaaa>/document-qa-rag.git
 cd document-qa-rag
 2️⃣ Install dependencies
 
