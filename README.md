@@ -79,6 +79,7 @@ qa_chain = RetrievalQA.from_chain_type(
 # Ask questions
 response = qa_chain.invoke({"query": "What is this document about?"})
 print(response["result"])
+```
 🧰 Installation & Setup
 1️⃣ Clone the repository
 
@@ -101,7 +102,4 @@ macOS / Linux:
 export OPENAI_API_KEY="your_openai_api_key"
 4️⃣ Run the notebook
 Open and run:
-jupyter notebook "Document QA with GPT-4o - RAG.ipynb"
-
-Copy code
 jupyter notebook "Document QA with GPT-4o - RAG.ipynb"
